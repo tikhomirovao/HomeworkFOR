@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 //#define TASK_1
@@ -14,26 +14,26 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef TASK_1
 	int n;
-	cout << "Ôàêòîðèàë ÷èñëà: "; cin >> n;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°: "; cin >> n;
 	int result = 1;
 	for (int i = 1; i <= n; i++)
 	{
 		result *= i;
 	}
-	cout << "Ðàâåí: " << result << endl;
+	cout << "Ð Ð°Ð²ÐµÐ½: " << result << endl;
 #endif // TASK_1
 
 #ifdef TASK_2
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	int a;
-	cout << "Ââåäèòå ñòåïåíü: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: "; cin >> a;
 	int result = 1;
 	for (int i = 0; i < n; i++)
 	{
 		result = result * a;
 	}
-	cout << "Ðåçóëüòàò: " << result << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << result << endl;
 #endif // TASK_2
 
 #ifdef TASK_3
@@ -46,7 +46,7 @@ void main()
 
 #ifdef TASK_4
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int a = 0, b = 1, c = a + b; a < n; a = b, b = c, c = a + b)
 		cout << a << "\t";
 	cout << endl;
@@ -55,7 +55,7 @@ void main()
 
 #ifdef TASK_5
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî ÷èñåë èç ðÿäà Ôèáîíà÷÷è: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð¸ÑÐµÐ» Ð¸Ð· Ñ€ÑÐ´Ð° Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: "; cin >> n;
 	int a = 0;
 	int b = 1;
 	int c = a + b;
@@ -70,7 +70,7 @@ void main()
 
 #ifdef TASK_6
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîåó ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾ÐµÑƒ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i <= n; i++)
 	{
 		bool simple = true;
@@ -90,7 +90,7 @@ void main()
 #ifdef TASK_7
 	for (int i = 1; i <= 10; i++)
 	{
-		cout << "Òàáëèöà óìíîæåíèÿ íà " << i << ":\n";
+		cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð½Ð° " << i << ":\n";
 		for (int j = 1; j <= 10; j++)
 		{
 			cout << "\t\t\t";
